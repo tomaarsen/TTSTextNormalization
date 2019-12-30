@@ -1,0 +1,8 @@
+
+# This folder contains `en_test.csv`, `en_test_2.csv` and `en_train.csv` from the competition
+
+# Ignore all files in this dir...
+*
+
+# ... except for this one.
+!.gitignore

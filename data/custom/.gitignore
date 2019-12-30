@@ -1,0 +1,8 @@
+
+# This folder contains preprocessed data
+
+# Ignore all files in this dir...
+*
+
+# ... except for this one.
+!.gitignore
