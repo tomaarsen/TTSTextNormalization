@@ -13,7 +13,17 @@ class Plain:
     - 4 Remove all non-digit and non-letter characters
     - 5 Split on "strasse". This is the only often occurring case where extra spaces should be added
 
-    TODO
+    Strange cases:
+        "Jan", "Feb" and "Mar" are not converted to "january", "february" and "march" respectively, 
+        while the other months of the year are converted to their full counterparts. 
+        I've opted to convert all months completely.
+
+        Some names, such as "Elisabeth" and "Isaak" are normalized and converted to "elizabeth" and "izaak". I've opted not to support this.
+
+        Sometimes tokens like "NO" are converted to chemistry terms like "nitrogen monoxide". I've opted not to support this.
+    
+    There are 3 "plain.json" files, each with slightly different uses. The one currently being used is one trained very specifically
+    on the training data.
     """
     def __init__(self):
         super().__init__()
