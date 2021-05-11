@@ -6,7 +6,7 @@ Alongside the code is a [paper](paper.pdf) written regarding my solution. The ab
 ---
 
 ## Abstract
-This paper proposes a method for solving, as well as a solution to, a text-to-speech normalization problem, which focuses on converting text from written expressions into spoken forms. The method parses input tokens through a gradient boosted decision tree model, which classifies the token as one of 16 different types of tokens. The token is then converted based on the predicted token type, resulting in a normalized output of the spoken form. Upon entering a related text-to-speech normalization competition, the solution achieved an accuracy of **99.590\%**, placing 12th out of the 260 teams, or within the **top 5%** of all submissions.
+This paper proposes a method for solving, as well as a solution to, a text-to-speech normalization problem, which focuses on converting text from written expressions into spoken forms. The method parses input tokens through a gradient boosted decision tree model, which classifies the token as one of 16 different types of tokens. The token is then converted based on the predicted token type, resulting in a normalized output of the spoken form. Upon entering a related text-to-speech normalization competition, the solution achieved an accuracy of **99.590%**, placing 12th out of the 260 teams, or within the **top 5%** of all submissions.
 
 ---
 
