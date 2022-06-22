@@ -1,7 +1,7 @@
 # TTSTextNormalization
 
 This repository houses my solution to Google's [Text Normalization Challenge - English Language](https://www.kaggle.com/c/text-normalization-challenge-english-language). Most of the magic happens within the converter directory, which is responsible for the actual conversions from input to output tokens.
-Alongside the code is a [paper](paper.pdf) written regarding my solution. The abstract for this paper is as follows:
+Alongside the code is a [paper](https://github.com/tomaarsen/TTSTextNormalization/blob/master/paper.pdf) written regarding my solution. The abstract for this paper is as follows:
 
 ---
 
